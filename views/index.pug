@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      h1 Howdy!
+
+      p.lead.text-light
+        | Below I have listed all my work. After every section of my Tech degree at Treehouse, I have created a challenge project. Hope you enjoy!
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      each project in projects
+        .cell
+          a(href=`/project/${project.id}`, class='link disabled')
+            img.thumbnail(src=`${project.image_urls[0]}`)
+            h5= project.project_name
+      

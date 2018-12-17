@@ -1,0 +1,27 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='', class='link disabled') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1= projects[projectID].project_name
+
+        p.lead.text-light
+          | #{projects[projectID].description}
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Technologies
+
+        ul
+          each technology in projects[projectID].technologies
+            li= technology
+
+        a.button.expanded(href=`${projects[projectID].live_link}`, target='_blank') Live Demo
+        a.button.expanded(href=`${projects[projectID].github_link}`, target='_blank') GitHub Repo
+    
+    img.image(src=`${projects[projectID].image_urls[1]}`)
+    img.image(src=`${projects[projectID].image_urls[2]}`)
+    img.image(src=`${projects[projectID].image_urls[3]}`)

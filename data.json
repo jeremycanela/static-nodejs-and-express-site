@@ -1,0 +1,74 @@
+{
+	"projects": [
+		{
+			"id": 0,
+			"project_name": "Random Quote Generator",
+			"description": "Displays random famous quotes from a provided list of quotes.",
+			"technologies": ["HTML", "CSS", "JavaScript"],
+			"live_link": "http://jeremycanela.com/random-quote-generator/",
+			"github_link": "https://github.com/jeremycanela/random-quote-generator",
+			"image_urls": [
+				"/static/images/random-quote-generator_md.jpg", 
+				"/static/images/random-quote-generator_lg_1.jpg",
+				"/static/images/random-quote-generator_lg_2.jpg",
+				"/static/images/random-quote-generator_lg_3.jpg"
+			]
+		},
+		{
+			"id": 1,
+			"project_name": "List pagination and filtering",
+			"description": "List of students enhanced with pagination and filtering. The search allows for any kind of search, from searching students’ name that start with \"a\", to search specific names.",
+			"technologies": ["HTML", "CSS", "JavaScript"],
+			"live_link": "http://jeremycanela.com/list-pagination-and-filtering/",
+			"github_link": "https://github.com/jeremycanela/list-pagination-and-filtering",
+			"image_urls": [
+				"/static/images/list-pagination-and-filtering_md.jpg",
+				"/static/images/list-pagination-and-filtering_lg_1.jpg",
+				"/static/images/list-pagination-and-filtering_lg_2.jpg",
+				"/static/images/list-pagination-and-filtering_lg_3.jpg"
+			]
+		},
+		{
+			"id": 2,
+			"project_name": "Interactive Form",
+			"description": "Form with dynamic validation to enhance engagement, interactivity, and ease.",
+			"technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+			"live_link": "http://jeremycanela.com/interactive-form/",
+			"github_link": "https://github.com/jeremycanela/interactive-form",
+			"image_urls": [
+				"/static/images/interactive-form_md.jpg",
+				"/static/images/interactive-form_lg_1.jpg",
+				"/static/images/interactive-form_lg_2.jpg",
+				"/static/images/interactive-form_lg_3.jpg"
+			]
+		},
+		{
+			"id": 3,
+			"project_name": "OOP Game Show App",
+			"description": "Word guessing game with an onscreen keybard and has functionability with your computer keyboard. Phrases are randomly selected from a provided list.",
+			"technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+			"live_link": "http://jeremycanela.com/oop-game-show-app/",
+			"github_link": "https://github.com/jeremycanela/oop-game-show-app",
+			"image_urls": [
+				"/static/images/oop-game-show-app_md.jpg",
+				"/static/images/oop-game-show-app_lg_1.jpg",
+				"/static/images/oop-game-show-app_lg_2.jpg",
+				"/static/images/oop-game-show-app_lg_3.jpg"
+			]
+		},
+		{
+			"id": 4,
+			"project_name": "Public API Requests",
+			"description": "An app for a ficitonal company called Awesome Startup. Using the Random User Generator API, I've requested a list of 12 \"employees\" and displayed them. Employees will use this app as a way to share contact information with each other.",
+			"technologies": ["HTML", "CSS", "JavaScript", "jQuery", "AJAX"],
+			"live_link": "http://jeremycanela.com/public-api-requests/",
+			"github_link": "https://github.com/jeremycanela/public-api-requests",
+			"image_urls": [
+				"/static/images/public-api-requests_md.jpg",
+				"/static/images/public-api-requests_lg_1.jpg",
+				"/static/images/public-api-requests_lg_2.jpg",
+				"/static/images/public-api-requests_lg_3.jpg"
+			]
+		}
+	]
+}
