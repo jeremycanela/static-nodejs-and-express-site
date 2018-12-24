@@ -18,6 +18,7 @@ const loadNewPage = (url, pushToHistory = true) => {
 				opacity: 100
 			}, 500, () => {
 				$(".main-content").clearQueue();
+				$(".main-content").unwrap();
 				$(".link").removeClass("disabled");
 			});
 		});

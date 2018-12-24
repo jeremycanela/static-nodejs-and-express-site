@@ -47,5 +47,5 @@ app.use((error, req, res, next) => {
 // App is served on port 3000
 const port = process.env.PORT || 1337;
 app.listen(port, () => {
-	console.log("The application is running on localhost:3000");
+	console.log("The application is running on localhost:1337");
 });
